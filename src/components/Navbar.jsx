@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import Register from '../pages/Register'
+// import { NavLink } from 'react-router-dom'
+// import Register from '../pages/Register'
 
 const Navbar = () => {
     return (

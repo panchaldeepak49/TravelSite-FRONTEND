@@ -18,13 +18,13 @@ const Register = () => {
         phone:data.get('phone'),
         password:data.get('password'),
       }
-      //console.log(form);
+      console.log(form);
         
-       const res = await fetch("http://localhost:5000/sign_up",{
-            method:"POST",
-            headers:{"Content-Type":"application/json"},
-            body:JSON.stringify(form)
-        });
+    //    const res = await fetch("http://localhost:5000/sign_up",{      //commented to deploy on Netlify 
+    //         method:"POST",
+    //         headers:{"Content-Type":"application/json"},
+    //         body:JSON.stringify(form)
+    //     });
 
     }
      /* function handleChange(e){
