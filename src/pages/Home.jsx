@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 import axios from "axios";
 import './Home.css'
 
@@ -21,7 +21,7 @@ const Home = () => {
                     <span>Enjoy</span>
                     <h1>International Travel Agency</h1>
                     <br />
-                    <a href="#">Book your Trip</a>
+                    <a href="/">Book your Trip</a>
                 </section>
 
             </div>

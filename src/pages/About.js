@@ -1,6 +1,6 @@
 import React from 'react'
 import thapapic from './N1.jpg'
-import {NavLink} from 'react-router-dom'
+// import {NavLink} from 'react-router-dom'
 
 export const About = () => {
   return (
