@@ -10,11 +10,11 @@ const HillStations = () => {
     async function handleSubmit(e){
         e.preventDefault();
   //console.log(form);
-        const res = await fetch("http://localhost:5000/register_hill",{
-            method:"POST",
-            headers:{"Content-Type":"application/json"},
-            body:JSON.stringify(form)
-        });
+        // const res = await fetch("http://localhost:5000/register_hill",{        // commented to deploy on Netlify
+        //     method:"POST",
+        //     headers:{"Content-Type":"application/json"},
+        //     body:JSON.stringify(form)
+        // });
     }
     function handleChange(e){
      setForm({...form,[e.target.name]:e.target.value});
